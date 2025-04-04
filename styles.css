@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 1920px;
+    heigth: 30px;
+    background-color: #005CFF;
+}
+
+.navbar p {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 22px;
+    margin: 0;
+    width: 546px;
+    heigth: 22px;
+    padding-top: 4px;
+    padding-left: 687px;
+    padding-bottom: 4px;
+    
+}
+
+.purple-rectangle {
+    width: 63px;
+    height: 16px;
+    margin-top: 7px;
+    //padding-left: 732px;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-radius: 4px;
+    background-color: #6220C1;
+    line-height: 22px;
+}
+
+.discount {
+font-family: Nunito Sans;
+font-weight: 400;
+font-style: italic;
+font-size: 14px;
+line-height: 22px;
+letter-spacing: 0%;
+
+}
