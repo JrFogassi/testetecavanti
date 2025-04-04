@@ -37,11 +37,91 @@ body {
 }
 
 .discount {
-font-family: Nunito Sans;
-font-weight: 400;
-font-style: italic;
-font-size: 14px;
-line-height: 22px;
-letter-spacing: 0%;
+    font-family: Nunito Sans;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0%;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding-top: 46px;      
+    padding-left: 330px;    
+}
+
+.avanti-logo {
+    margin-right: 60px;    
+}
+
+.search-container {
+    position: relative;
+    display: inline-block;
+}
+
+.search-bar {
+    width: 594px;
+    height: 40px;
+    border: 1px solid #DDDDDD;
+    border-radius: 10px;
+}
+
+.search-bar::placeholder {
+    width: 193;
+    height: 19;
+    margin-top: 57.56px;
+    padding-left: 20px;
+    font-family: Nunito Sans;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+
+}
+
+.search-icon {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    right: 16px; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    pointer-events: none; 
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 8px;
+    margin-left: 200px
+}
+
+.user-icon-name {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.cart-container {
+    position: relative;
+    display: inline-block;
+}
+
+.cart-count {
+    position: absolute;
+    top: -8px;
+    right: -12px;
+    z-index: 1;
+}
+
+.categories-icon {
+    width: 14;
+    height: 10;
+    border-width: 2px;
 
 }
