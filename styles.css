@@ -91,7 +91,14 @@ header {
     right: 16px; 
     top: 50%; 
     transform: translateY(-50%); 
-    pointer-events: none; 
+    cursor: pointer;
+}
+
+.search-message {
+    margin-top: 10px;
+    color: #333;
+    font-size: 14px;
+    padding: 8px 0;
 }
 
 .user-info {
