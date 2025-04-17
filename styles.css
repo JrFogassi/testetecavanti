@@ -178,3 +178,262 @@ header {
     margin-top: 145px;
     left: 944.97px;
 }
+
+.launch-container {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Nunito Sans;
+    max-width: 1288px;
+    height: 478px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.launch-options {
+    display: flex;
+    gap: 20px;
+}
+
+.launch-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.launch-title {
+    width: 50%;
+    height: 27px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    margin-bottom: 20px;
+}
+
+.launch-more {
+    width: 63px;
+    height: 20px;
+    top: 3809px;
+    left: 1527px;
+}
+
+.shirt-card {
+    width: 238px;
+    position: relative;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.new-text {
+    position: absolute;
+    align-items: center;
+    width: 35px;
+    height: 18px;
+    top: 7px;
+    left: 8px;
+    background-color: #00264E;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 12px;
+    z-index: 10;
+}
+
+.shirt-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 12px;
+    position: relative;
+}
+
+.launch-text {
+    width: 222px;
+    height: 39px;
+    top: 244px;
+    left: 8px;
+    margin-bottom: 0px;
+    font-family: Nunito Sans;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    color: #303030;   
+}
+
+.prices-descount {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.prices {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.price-100 {
+    font-weight: 400 ;
+    font-size: 12px;
+    text-decoration: line-through;
+    color: #303030;
+}
+
+.price-79 {
+    font-weight: 700;
+    font-size: 16px;
+    color: #000000;
+}
+
+.price-7 {
+    font-weight: 400;
+    font-size: 12px;
+    color: #303030;
+    margin-top: 5px;
+    margin-bottom: 16px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.off10 {
+    background-color: #5EC0BE;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 12px;
+    display: inline-block;
+    margin-top: 10px;
+    white-space: nowrap;
+}
+
+.buy-button {
+    width: 100%;
+    padding: 10px 24px;
+    background: #005CFF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.buy-button:hover {
+    background: #0047CC;
+}
+
+.buy-text {
+    width: 57px;
+    height: 20px;
+    font-family: Nunito Sans;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.carrossel-wrapper {
+    overflow: hidden; 
+}
+
+.carrossel {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+       
+}
+
+.carrossel-container {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 100%; 
+        
+}
+
+.section {
+    flex: 0 0 100%;
+    display: flex; 
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.slide {
+    width: 0px;
+    flex: 0 0 calc(20% - 16px);
+    border: 1px solid #DDDDDD;
+    box-sizing: border-box; 
+}
+
+.shirt-card {
+    width: 200px; 
+    position: relataive;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.carrossel-prev, .carrossel-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 20;
+    border-radius: 50%;
+    border: 1px solid #005CFF;
+    width: 30px;
+    height: 30px;
+}
+
+.carrossel-prev { 
+    left: -15px;
+}
+
+.carrossel-next { 
+    right: -15px; 
+}
+
+.carrossel-prev[disabled], .carrossel-next[disabled] {
+    opacirty: 0,3;
+    cursor: not-allowed;
+}
+
+.carrossel-indicators {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.carrossel-indicators button {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    background-color: #838383;
+    transition: background-color 0.3s ease;
+}
+
+.carrossel-indicators button:hover {
+    transform: scale(1.2);
+    opacity: 0.8;
+}
+
+.carrossel-indicators .active-indicator {
+    background-color: #303030;
+}
