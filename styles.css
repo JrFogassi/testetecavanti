@@ -444,3 +444,56 @@ header {
 .carrossel-indicators .active-indicator {
     background-color: #303030;
 }
+
+.mug-container {
+    display: flex;
+    margin-top: 150px;
+    margin-left: 350px;
+    gap: 40px;
+}
+
+.mug-background {
+    width: 652px;
+    height: 750px;
+    margin-top: 150px;
+    margin-left: 350px;
+    background-color: #C2C2C2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.mug {
+    width: 523px;
+    height: 528px;
+    margin-top: 70px;
+    trasnform: rotate(7.54deg);
+}
+
+.mug-text-container {
+    margin-top: 100px;
+    max-width: 400px;
+
+}
+
+.mug-title {
+    width: 487px;
+    height: 42px;
+    font-family: Nunito Sans;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 140%;
+    letter-spacing: 4%;
+    text-transform: uppercase;
+}
+
+.mug-description {
+    width: 487px;
+    height: 225px;
+    font-family: Nunito Sans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 5%;
+}
