@@ -566,3 +566,170 @@ header {
     width: 35px;
     height: 35px;
 }
+
+.contact-container {
+    position: relative;
+    display: inline-block;
+    margin-top: 100px;
+}
+
+.contact-container img {
+    display: block;
+    width: 100%;
+    height: 660px;
+}
+
+.contact-disclaimer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 132px;
+    background-color: #005CFF;
+    font-family: Nunito Sans;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.contact-disclaimer p {
+    margin-top: 45px;
+}
+
+.newslatter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.newslatter-container h3 {
+    font-family: Nunito Sans;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    
+}
+
+.newslatter-container span {
+    color: #005CFF;
+}
+
+.newslatter-form-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1260px;
+    height: 220px;
+    top: 54px;
+    border-radius: 8px;
+    background-color: #DEDEDE;
+}
+
+.newslatter-form {
+    display: flex;
+    align-items: center;
+    width: 1031px;
+    height: 48px;
+    gap: 24px;
+}
+
+.newslatter-form #name, #email {
+    width: 280px;
+    height: 100%;
+    border-radius: 8px;
+    border: 0px;
+    padding: 0 24px;
+}
+
+input::placeholder {
+    width: 102px;
+    height: 19px;
+    top: 15px;
+    left: 24px;
+    font-family: Nunito Sans;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #303030;
+    padding-left: 24px;
+}
+
+.form-actions {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 24px;
+}
+
+.checkbox-form {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 8px;
+    white-space: nowrap;
+}
+
+.checkbox-form input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 0;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    color: #FFFFFF;
+    border-radius: 4px;
+    border: 1px solid #DDDDDD;
+    background-color: white;
+}
+
+.checkbox-form p {
+    font-family: Nunito Sans;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    color: #656565;
+}
+
+.checkbox-form span {
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-offset: 0%;
+    text-decoration-thickness: 0%;
+    color: #656565;
+}
+
+.register-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 121px;
+    height: 100%;
+    border-radius: 8px;
+    gap: 10px;
+    background-color: #005CFF;
+    color: #FFFFFF;
+    font-family: Nunito Sans;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.register-background p {
+    margin: 0;
+    padding: 0;
+}
