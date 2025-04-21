@@ -1,6 +1,9 @@
-body {
+body, html {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+    width: 100%;
+    position: relative;
 }
 
 .navbar {
@@ -377,7 +380,8 @@ header {
     width: 0px;
     flex: 0 0 calc(20% - 16px);
     border: 1px solid #DDDDDD;
-    box-sizing: border-box; 
+    box-sizing: border-box;
+    border-radius: 10px; 
 }
 
 .shirt-card {
@@ -496,4 +500,69 @@ header {
     font-size: 18px;
     line-height: 140%;
     letter-spacing: 5%;
+}
+
+.division-container {
+    display: flex;
+    width: 100%;
+    height: 819px;
+    margin-top: 50px;
+    background-color: #DEDEDE;
+}
+
+.info-and-image {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.localization-info h2 {
+    width: 481px;
+    height: 42px;
+    margin-top: 10px;
+    margin-left: 371px;
+    font-family: Nunito;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 140%;
+    letter-spacing: 4%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #4F4F4F;
+}
+
+.localization-info p {
+    width: 360px;
+    height: 125px;
+    top: 92px;
+    left: 113px;
+    font-family: Nunito Sans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 5%;
+    color: #4F4F4F;   
+}
+
+.localization-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    margin-left: 374px;
+}
+
+.map-bin-background {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #005CFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map-pin {
+    width: 35px;
+    height: 35px;
 }
