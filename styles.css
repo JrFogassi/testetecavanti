@@ -734,31 +734,38 @@ input::placeholder {
     padding: 0;
 }
 
+footer {
+    width: 100%;
+    margin-top: 40px;
+}
+
 .social-container {
     width: 100%;
-    height: 386px;
+    height: 346px;
     background-color: #F5F5F5;
-    margin-top: 40px;
-    padding: 40px;
+    margin: 0 auto;
+    padding: 60px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .social-media {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 194px;
-    height: 93px;
-    padding-top: 70px;
-    margin-left: 270px;
-    gap: 40px;
+    align-items: flex-start;
+    gap: 20px;
+    flex-shrink: 0;
+    margin-right: 60px;
+}
+
+.logos {
+    padding-left: 240px;
 }
 
 .social-media-icons {
     display: flex;
-    justify-content: center;
-    gap: 25px;
-    width: 194px;
-    height: 26px;
+    gap: 40px;
+    padding-top: 30px; 
 }
 
 .social-media-icons img {
@@ -768,20 +775,18 @@ input::placeholder {
 
 .social-contacts {
     display: flex;
-    justify-content: space-between;
-    max-width: 1200px;
-    align-items: right;
-    padding: 40px 20px;
+    justify-content: flex-end;
+    flex-grow: 1;
+    padding: 0px 115px;
     font-family: Nunito Sans;
     font-weight: 700;
     gap: 40px;
 }
 
 .social-contacts-column {
-    flex: 1;
+    flex: 0 1 auto;
     min-width: 200px;
-    padding: 0 15px;
-    margin-top: 0;
+    padding-left: 40px;
 }
 
 .social-contacts-column h4{
@@ -822,4 +827,21 @@ input::placeholder {
     margin: 0;
     padding: 0;
     line-height: 1;
+}
+
+.payment-container {
+    position: absolute;
+    width: 545px;
+    height: 24px;
+    margin-top: 298px;
+    margin-left: 557px;
+    margin-bottom: 64px;
+    display: flex;
+    gap: 22px;
+    align-items: center;
+}
+
+.payment-container img {
+    width: 36px;
+    height: 26px;
 }
